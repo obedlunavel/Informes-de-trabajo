@@ -1,0 +1,296 @@
+[
+    {
+        "Unidad": "c",
+        "Número de Expediente": "a",
+        "Nombre del Paciente": "a",
+        "Fecha de Nacimiento": "b",
+        "Diagnóstico": "a",
+        "Área de Intervención": "a",
+        "Observaciones Clínicas": "a",
+        "Programas Seleccionados": [
+            "1",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "Unidad": "1sdasdas",
+        "Número de Expediente": "2",
+        "Nombre del Paciente": "c",
+        "Fecha de Nacimiento": "c",
+        "Diagnóstico": "c",
+        "Área de Intervención": "c",
+        "Observaciones Clínicas": "d",
+        "Programas Seleccionados": [
+            "1"
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0019",
+        "Nombre del Paciente": "Jesus Sebastian Félix O",
+        "Fecha de Nacimiento": "15/05/2019",
+        "Diagnóstico": "TEA",
+        "Área de Intervención": "1",
+        "Observaciones Clínicas": "Poca tolerancia a la frustracion",
+        "Programas Seleccionados": [
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0020",
+        "Nombre del Paciente": "Antuan",
+        "Fecha de Nacimiento": "09/01/2025",
+        "Diagnóstico": "tea",
+        "Área de Intervención": "1",
+        "Observaciones Clínicas": "sdas",
+        "Programas Seleccionados": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0086",
+        "Nombre del Paciente": "Daniela Renee Moreno Castro",
+        "Fecha de Nacimiento": "13/11/2019",
+        "Diagnóstico": "F84.0",
+        "Área de Intervención": "2",
+        "Observaciones Clínicas": "",
+        "Programas Seleccionados": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0057",
+        "Nombre del Paciente": "Dante Vladimir Encinas García",
+        "Fecha de Nacimiento": "03/07/2019",
+        "Diagnóstico": "F84.0",
+        "Área de Intervención": "Conductual",
+        "Observaciones Clínicas": "Impulsividad",
+        "Programas Seleccionados": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ]
+    },
+    {
+        "Unidad": "M",
+        "Número de Expediente": "M",
+        "Nombre del Paciente": "M",
+        "Fecha de Nacimiento": "M",
+        "Diagnóstico": "M",
+        "Área de Intervención": "M",
+        "Observaciones Clínicas": "M",
+        "Programas Seleccionados": [
+            1,
+            4
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "1",
+        "Nombre del Paciente": "1",
+        "Fecha de Nacimiento": "1",
+        "Diagnóstico": "1",
+        "Área de Intervención": "1",
+        "Observaciones Clínicas": "1",
+        "Programas Seleccionados": [
+            1
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0050",
+        "Nombre del Paciente": "S",
+        "Fecha de Nacimiento": "22/04/1998",
+        "Diagnóstico": "F84",
+        "Área de Intervención": "1",
+        "Observaciones Clínicas": "D",
+        "Programas Seleccionados": [
+            "61",
+            "62",
+            "63",
+            "64"
+        ]
+    },
+    {
+        "Unidad": "m",
+        "Número de Expediente": "m",
+        "Nombre del Paciente": "m",
+        "Fecha de Nacimiento": "m",
+        "Diagnóstico": "m",
+        "Área de Intervención": "m",
+        "Observaciones Clínicas": "m",
+        "Programas Seleccionados": [
+            6
+        ]
+    },
+    {
+        "Unidad": "K",
+        "Número de Expediente": "K",
+        "Nombre del Paciente": "K",
+        "Fecha de Nacimiento": "K",
+        "Diagnóstico": "K",
+        "Área de Intervención": "K",
+        "Observaciones Clínicas": "K",
+        "Programas Seleccionados": [
+            4
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0506",
+        "Nombre del Paciente": "Moises Tadeo Salazar Rodriguez",
+        "Fecha de Nacimiento": "19/09/2021",
+        "Diagnóstico": "TEA GRADO 3",
+        "Área de Intervención": "Conductual",
+        "Observaciones Clínicas": "Reducir sobreestimulacion de pantallas, no exponer a pantallas antes de dormir",
+        "Programas Seleccionados": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            11,
+            12,
+            19,
+            21,
+            22
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0132",
+        "Nombre del Paciente": "Lucya Jesabeth Yocupicio García",
+        "Fecha de Nacimiento": "15/04/2020",
+        "Diagnóstico": "F84.0 TEA",
+        "Área de Intervención": "Conductual, Lenguaje",
+        "Observaciones Clínicas": "Se observan cortos peridos de atencion en las actividades, inicialmente no seguía instrucciones, no hacía imitaciones y buscaba redirigir la atencion cuando identificaba una demanda externa, encuentra reforzante el juego simbólico con animales, carros u otros juguetes y la simulacion de situaciones sociales, actualmente el trabajo con ella se desarrolla practicando actividades que le resultan reforzantes, después de un periodo de tiempo de entre 5 y 10 minutos se le da la instrucción de sentarse, se le pide que realice alguna imitacion motora gruesa, fina, de vocales, en la última sesion compenzó a realizar ecóicas por lo cual se apertura a la posibilidad de moldear tanto su repertorio conductual como lingüístico, se observa reduccion de la conducta de trastorno de pica cuando se encuentra ocupada o en entornos tranquilos, el plan de trabajo conlleva un desarrollo progresivo de habilidades, sin embargo, Lucya muestra un amplio repertorio de conductas que poco a poco está manifestando de un amanera cada vez más social.",
+        "Programas Seleccionados": [
+            "4",
+            "5",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "28",
+            "32",
+            "35",
+            "37",
+            "41",
+            "44",
+            "45",
+            "46",
+            "48",
+            "50",
+            "51",
+            "62",
+            "63",
+            "64"
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG0058",
+        "Nombre del Paciente": "X",
+        "Fecha de Nacimiento": "12/12/2012",
+        "Diagnóstico": "TEA",
+        "Área de Intervención": "Conductual",
+        "Observaciones Clínicas": "x",
+        "Programas Seleccionados": [
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "Unidad": "U",
+        "Número de Expediente": "CANNOG0087",
+        "Nombre del Paciente": "W",
+        "Fecha de Nacimiento": "W",
+        "Diagnóstico": "W",
+        "Área de Intervención": "W",
+        "Observaciones Clínicas": "W",
+        "Programas Seleccionados": [
+            1,
+            2
+        ]
+    },
+    {
+        "Unidad": "Nogales",
+        "Número de Expediente": "CANNOG1000",
+        "Nombre del Paciente": "Y",
+        "Fecha de Nacimiento": "Y",
+        "Diagnóstico": "Y",
+        "Área de Intervención": "Y",
+        "Observaciones Clínicas": "Y",
+        "Programas Seleccionados": [
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "Unidad": "y",
+        "Número de Expediente": "y",
+        "Nombre del Paciente": "y",
+        "Fecha de Nacimiento": "y",
+        "Diagnóstico": "y",
+        "Área de Intervención": "y",
+        "Observaciones Clínicas": "y",
+        "Programas Seleccionados": [
+            1
+        ]
+    },
+    {
+        "Unidad": "N",
+        "Número de Expediente": "we",
+        "Nombre del Paciente": "n",
+        "Fecha de Nacimiento": "n",
+        "Diagnóstico": "n",
+        "Área de Intervención": "n",
+        "Observaciones Clínicas": "n",
+        "Programas Seleccionados": [
+            1
+        ]
+    },
+    {
+        "Unidad": "WA",
+        "Número de Expediente": "WR",
+        "Nombre del Paciente": "E",
+        "Fecha de Nacimiento": "E",
+        "Diagnóstico": "E",
+        "Área de Intervención": "E",
+        "Observaciones Clínicas": "E",
+        "Programas Seleccionados": [
+            1
+        ]
+    }
+]
