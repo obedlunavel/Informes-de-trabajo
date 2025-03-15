@@ -1,0 +1,266 @@
+{
+    "1": {
+        "Nombre": "Respuesta al nombre",
+        "Objetivo": "Que el alumno(a) dirija y enfoque su atención a la cara de la persona al escuchar su nombre estando fuera de su campo visual."
+    },
+    "2": {
+        "Nombre": "Mírame",
+        "Objetivo": "Que el alumno(a) dirija y enfoque su atención a la cara de la persona que lo llama realizando contacto visual."
+    },
+    "3": {
+        "Nombre": "Mira",
+        "Objetivo": "Que el alumno(a) dirija su atención hacia el estímulo que se le señala."
+    },
+    "4": {
+        "Nombre": "Imitaciones motoras gruesas",
+        "Objetivo": "Que mueva manos y pies replicando el modelo visual."
+    },
+    "5": {
+        "Nombre": "Imitaciones motoras finas",
+        "Objetivo": "Que mueva manos y dedos replicando el modelo visual."
+    },
+    "6": {
+        "Nombre": "Imitación de movimientos orofaciales",
+        "Objetivo": "Que el alumno(a) mueva los músculos de la boca replicando el modelo visual. Ej. sacar la lengua."
+    },
+    "7": {
+        "Nombre": "Seguimiento de instrucciones básicas",
+        "Objetivo": "Que el alumno(a) ejecute la instrucción que se le verbaliza. Ej. 'Siéntate'."
+    },
+    "8": {
+        "Nombre": "Señalar con índice",
+        "Objetivo": "Que el alumno(a) señale objetos de interés con el dedo índice."
+    },
+    "9": {
+        "Nombre": "Responder sí y no con la cabeza",
+        "Objetivo": "Que el alumno(a) responda correctamente por medio de un gesto (sí/no) a preguntas de 'sí' o 'no'."
+    },
+    "10": {
+        "Nombre": "Reconocimiento de esquema corporal",
+        "Objetivo": "Que el alumno(a) reconozca las partes del cuerpo."
+    },
+    "11": {
+        "Nombre": "Emparejamiento de estímulos visuales",
+        "Objetivo": "Que el alumno(a) coloque dos estímulos iguales juntos siguiendo la instrucción 'pon con el mismo'."
+    },
+    "12": {
+        "Nombre": "Vocabulario receptivo",
+        "Objetivo": "Que el alumno(a) identifique señalando o entregando la imagen del objeto que se le pide."
+    },
+    "13": {
+        "Nombre": "Seguimiento de instrucciones con objetos",
+        "Objetivo": "Que el alumno(a) siga una instrucción de un solo paso."
+    },
+    "14": {
+        "Nombre": "Seguimiento de instrucciones complejas: encadenadas de 2-3 pasos",
+        "Objetivo": "Que el alumno(a) siga la instrucción realizando ambas acciones en el orden indicado. Ej. 'Aplaude y sube tus brazos'."
+    },
+    "15": {
+        "Nombre": "Seguimiento de instrucciones complejas por trayectoria",
+        "Objetivo": "Que el alumno(a) sea capaz de realizar una instrucción que implique caminar cierta distancia. Ej. tirar la basura, apagar/prender la luz."
+    },
+    "16": {
+        "Nombre": "Seguimiento de instrucciones complejas por trayectoria de 2-3 órdenes",
+        "Objetivo": "Que el alumno(a) realice las instrucciones que se le darán en el orden indicado."
+    },
+    "17": {
+        "Nombre": "Imitación de onomatopeyas",
+        "Objetivo": "Imitar sonidos de objetos, cuerpo, entre otros."
+    },
+    "18": {
+        "Nombre": "Ejercicios orofaciales",
+        "Objetivo": "Estimular la conciencia oral y la coordinación de los órganos fonoarticuladores."
+    },
+    "19": {
+        "Nombre": "Vocales",
+        "Objetivo": "Mencionar e imitar vocales."
+    },
+    "20": {
+        "Nombre": "Sílabas",
+        "Objetivo": "Imitar y mencionar cadenas silábicas comenzando por las más comunes e ir aumentando la complejidad de los fonemas."
+    },
+    "21": {
+        "Nombre": "Ecóicas",
+        "Objetivo": "Repetir el vocabulario que el terapeuta le menciona."
+    },
+    "22": {
+        "Nombre": "Mandos (palabras para pedir)",
+        "Objetivo": "Que el alumno(a) solicite verbalmente el objeto que desea."
+    },
+    "23": {
+        "Nombre": "Tactos",
+        "Objetivo": "El alumno(a) deberá nombrar la imagen u objeto que se le presente."
+    },
+    "24": {
+        "Nombre": "Vocabulario",
+        "Objetivo": "Presentar y reconocer el vocabulario a través de campos semánticos."
+    },
+    "25": {
+        "Nombre": "Intraverbales",
+        "Objetivo": "Responder a preguntas de información personal."
+    },
+    "26": {
+        "Nombre": "Selección/preferencia '¿quieres?'",
+        "Objetivo": "Responder verbalmente con 'sí' o 'no' según sus gustos y deseos."
+    },
+    "27": {
+        "Nombre": "¿Qué quieres?",
+        "Objetivo": "Responder con el nombre del objeto deseado cuando se le muestran opciones."
+    },
+    "28": {
+        "Nombre": "De función '¿Para qué sirve?'",
+        "Objetivo": "Identificar y nombrar la función de los objetos."
+    },
+    "29": {
+        "Nombre": "Posesivos Mío/Tuyo",
+        "Objetivo": "Responder ‘mío’ o ‘tuyo’ a la pregunta ‘¿de quién es?’."
+    },
+    "30": {
+        "Nombre": "Preposiciones '¿dónde?'",
+        "Objetivo": "Identificar y nombrar conceptos espaciales respondiendo ‘¿dónde está?’"
+    },
+    "31": {
+        "Nombre": "Sensaciones ¿Dónde sientes?",
+        "Objetivo": "Identificar y nombrar la parte del cuerpo en donde sienta el estímulo."
+    },
+    "32": {
+        "Nombre": "Acciones ¿Qué está haciendo?",
+        "Objetivo": "Identificar y nombrar la acción que se le muestra."
+    },
+    "33": {
+        "Nombre": "¿Qué estás haciendo?",
+        "Objetivo": "Identificar y nombrar la acción que está realizando."
+    },
+    "34": {
+        "Nombre": "¿Qué estoy haciendo?",
+        "Objetivo": "Identificar y nombrar la acción del terapeuta o de la persona que realice la pregunta."
+    },
+    "35": {
+        "Nombre": "Descripciones",
+        "Objetivo": "Nombrar adjetivos calificativos."
+    },
+    "36": {
+        "Nombre": "Explicación: ¿por qué?",
+        "Objetivo": "Responder a preguntas de tipo ¿por qué? Discriminando explicando y eligiendo el estímulo que no corresponde a la categoría."
+    },
+    "37": {
+        "Nombre": "Auto cíclicas",
+        "Objetivo": "Realizar oraciones cortas de 3-4 palabras."
+    },
+    "38": {
+        "Nombre": "Yo tengo",
+        "Objetivo": "Realizar oraciones cortas de 3-4 palabras."
+    },
+    "39": {
+        "Nombre": "Yo veo",
+        "Objetivo": "Realizar oraciones cortas de 3-4 palabras."
+    },
+    "40": {
+        "Nombre": "Me gusta/no me gusta",
+        "Objetivo": "Nombrar cosas o situaciones que sean de su gusto/agrado y de su desagrado."
+    },
+    "41": {
+        "Nombre": "Formación de oraciones",
+        "Objetivo": "Desarrollar y formar oraciones compuestas por sujeto, verbo y predicado."
+    },
+    "42": {
+        "Nombre": "Experiencias",
+        "Objetivo": "Narrar y expresar experiencias y sucesos que hayan ocurrido durante el día o en días pasados."
+    },
+    "43": {
+        "Nombre": "Correcta articulación de fonemas",
+        "Objetivo": "Que el alumno(a) emita correctamente los sonidos de los fonemas comenzando de manera aislada, después en sílabas, palabras y oraciones cortas."
+    },
+    "44": {
+        "Nombre": "Atención Focal Visual Auditiva",
+        "Objetivo": "Desarrollar la capacidad de seleccionar y centrar la atención en un estímulo en particular."
+    },
+    "45": {
+        "Nombre": "Atención Sostenida Visual Auditiva",
+        "Objetivo": "Mantener la atención durante un periodo prolongado de tiempo mientras se lleva a cabo una determinada tarea (interviene la motivación/fatiga)."
+    },
+    "46": {
+        "Nombre": "Atención Dividida",
+        "Objetivo": "Desarrollar la capacidad de atender a más de un estímulo a la vez."
+    },
+    "47": {
+        "Nombre": "Atención Conjunta",
+        "Objetivo": "Estimular y desarrollar la habilidad de compartir intereses por un mismo objeto o actividad."
+    },
+    "48": {
+        "Nombre": "Memoria de trabajo",
+        "Objetivo": "Memorizar y recuperar información para ejecutar una tarea a corto plazo a partir de estímulos visuales o auditivos."
+    },
+    "49": {
+        "Nombre": "Memoria Episódica",
+        "Objetivo": "Recordar momentos, lugares y emociones de un suceso de manera estructurada."
+    },
+    "50": {
+        "Nombre": "Control inhibitorio",
+        "Objetivo": "Regular y concientizar las respuestas automatizadas."
+    },
+    "51": {
+        "Nombre": "Flexibilidad",
+        "Objetivo": "Trabajar en la adaptabilidad y regulación ante cambios inesperados proponiendo diferentes actividades."
+    },
+    "52": {
+        "Nombre": "Semejanzas",
+        "Objetivo": "Desarrollar el pensamiento abstracto realizando inferencias básicas, relacionando conceptos de diferentes categorías."
+    },
+    "53": {
+        "Nombre": "Diferencias",
+        "Objetivo": "Desarrollar el pensamiento abstracto identificando diferencias entre dos conceptos."
+    },
+    "54": {
+        "Nombre": "Fluidez Verbal",
+        "Objetivo": "Incrementar la comunicación, el vocabulario y la fluidez."
+    },
+    "55": {
+        "Nombre": "Temporalidad",
+        "Objetivo": "Comprender sentidos temporales: ayer, hoy, mañana."
+    },
+    "56": {
+        "Nombre": "Adivinanzas",
+        "Objetivo": "Estimular el pensamiento abstracto a partir de conceptos descriptivos."
+    },
+    "57": {
+        "Nombre": "Verbos Mentales",
+        "Objetivo": "Desarrollar el pensamiento abstracto, juicio y análisis por medio de conceptos abstractos, identificando deseos, pensamientos, gustos y creencias ajenas a las de uno mismo."
+    },
+    "58": {
+        "Nombre": "Uso de metáforas",
+        "Objetivo": "Identificar y comprender el sentido figurado de las oraciones."
+    },
+    "59": {
+        "Nombre": "Absurdos",
+        "Objetivo": "Desarrollar el pensamiento lógico proponiendo situaciones para que el alumno discrimine si un escenario es posible o absurdo."
+    },
+    "60": {
+        "Nombre": "Planificación",
+        "Objetivo": "Incrementar la organización y planificación."
+    },
+    "61": {
+        "Nombre": "Motricidad fina",
+        "Objetivo": "Desarrollar habilidades motoras finas para el agarre y escritura."
+    },
+    "62": {
+        "Nombre": "Conducta adaptativa",
+        "Objetivo": "Regular y adecuar la conducta en los diferentes contextos sociales, desarrollando las habilidades sociales y prácticas que permitan responder a las circunstancias de la vida."
+    },
+    "63": {
+        "Nombre": "Tolerancia a la frustración",
+        "Objetivo": "Incrementar los tiempos de tolerancia y espera ante actividades u objetos deseados, desarrollando las habilidades de regulación de impulsos de frustración, aumentando la paciencia y tolerancia ante situaciones desagradables."
+    },
+    "64": {
+        "Nombre": "Identificación de emociones",
+        "Objetivo": "Identificar y reconocer las emociones."
+    },
+    "65": {
+        "Nombre": "Gestión de emociones",
+        "Objetivo": "Identificar, modular y canalizar las emociones."
+    },
+    "66": {
+        "Nombre": "Autoconocimiento",
+        "Objetivo": "Desarrollar autoconciencia de uno mismo, reconocer fortalezas, áreas de oportunidad, gustos, disgustos, entre otros."
+    }
+}
