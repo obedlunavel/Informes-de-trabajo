@@ -1,0 +1,398 @@
+{
+    "1": {
+        "Nombre": "Respuesta al nombre",
+        "sin_ayuda": "El alumno orienta su mirada y atención hacia quien lo nombra, incluso fuera de su visión periférica, con regularidad y sin necesidad de apoyo.",
+        "con_ayuda": "En situaciones puntuales logra responder al nombre fuera de su campo visual, aunque suele depender de guía constante para completar la acción.",
+        "no_logra": "No muestra reacción consistente ante el llamado por su nombre fuera de su visión directa, dependiendo siempre de intervención física o verbal."
+    },
+    "2": {
+        "Nombre": "Mírame",
+        "sin_ayuda": "Mantiene contacto ocular sostenido y atención focalizada ante el llamado verbal, demostrando autonomía en la ejecución.",
+        "con_ayuda": "Establece breves momentos de contacto visual cuando se le solicita, pero requiere recordatorios frecuentes y apoyo gestual.",
+        "no_logra": "Presenta dificultades persistentes para fijar la mirada en el interlocutor, necesitando asistencia física para orientar su atención."
+    },
+    "3": {
+        "Nombre": "Mira",
+        "sin_ayuda": "Dirige su foco atencional hacia elementos indicados en diferentes entornos, mostrando iniciativa y precisión.",
+        "con_ayuda": "Requiere señalamiento repetitivo y modulación del tono de voz para atender a los estímulos señalados.",
+        "no_logra": "No consigue orientar su atención hacia objetivos indicados sin apoyo táctil o posicionamiento físico del material."
+    },
+    "4": {
+        "Nombre": "Imitaciones motoras gruesas",
+        "sin_ayuda": "Reproduce patrones de movimiento corporal amplios con sincronía y coordinación visomotora autónoma.",
+        "con_ayuda": "Necesita demostración simultánea y ajustes posturales para emular movimientos de extremidades superiores e inferiores.",
+        "no_logra": "Requiere manipulación física completa para ejecutar cualquier patrón de movimiento grueso básico."
+    },
+    "5": {
+        "Nombre": "Imitaciones motoras finas",
+        "sin_ayuda": "Ejecuta movimientos digitales precisos siguiendo modelos demostrativos con independencia y control motor fino.",
+        "con_ayuda": "Logra algunas reproducciones digitales básicas con apoyo de moldes táctiles y corrección manual intermitente.",
+        "no_logra": "Presenta limitaciones significativas en la motricidad fina que imposibilitan la imitación sin guía física completa."
+    },
+    "6": {
+        "Nombre": "Imitación de movimientos orofaciales",
+        "sin_ayuda": "Controla voluntariamente músculos faciales y linguales para replicar modelos oromotores complejos.",
+        "con_ayuda": "Requiere espejo y feedback táctil para aproximarse a movimientos básicos de la zona oral.",
+        "no_logra": "No realiza ningún movimiento orofacial intencional sin manipulación directa y soporte físico."
+    },
+    "7": {
+        "Nombre": "Seguimiento de instrucciones básicas",
+        "sin_ayuda": "Interpreta y ejecuta consignas verbales simples en distintos contextos con espontaneidad.",
+        "con_ayuda": "Responde parcialmente a órdenes directas cuando se combinan con claves visuales y repetición constante.",
+        "no_logra": "No manifiesta comprensión de instrucciones verbales elementales sin modelado físico completo."
+    },
+    "8": {
+        "Nombre": "Señalar con índice",
+        "sin_ayuda": "Utiliza gesto de señalamiento protodeclarativo con intencionalidad comunicativa clara y consistente.",
+        "con_ayuda": "Emplea esporádicamente el dedo índice para indicar objetos con soporte en la extensión manual.",
+        "no_logra": "Carece de patrón de señalamiento funcional, requiriendo guía completa para esta acción."
+    },
+    "9": {
+        "Nombre": "Responder sí y no con la cabeza",
+        "sin_ayuda": "Modula movimientos cefálicos afirmativos/negativos adecuados al contexto interrogativo con precisión.",
+        "con_ayuda": "Realiza gestos de negación/afirmación básicos con apoyo de modelado gestual exagerado.",
+        "no_logra": "No diferencia movimientos cefálicos para comunicación básica, necesitando guía física para expresar respuestas."
+    },
+    "10": {
+        "Nombre": "Reconocimiento de esquema corporal",
+        "sin_ayuda": "Identifica y denomina correctamente partes mayores y menores de su cuerpo en diferentes posiciones.",
+        "con_ayuda": "Reconoce algunas zonas corporales básicas con apoyo de imágenes y contacto físico orientativo.",
+        "no_logra": "No asocia verbalmente ni señala partes corporales sin manipulación directa y posicionamiento."
+    },
+    "11": {
+        "Nombre": "Emparejamiento de estímulos visuales",
+        "sin_ayuda": "Relaciona y agrupa elementos idénticos por categorías perceptuales con criterio autónomo.",
+        "con_ayuda": "Requiere claves táctiles y reducción de distractores para realizar apareamientos básicos.",
+        "no_logra": "No establece correspondencias entre objetos similares sin colocación manual de los elementos."
+    },
+    "12": {
+        "Nombre": "Vocabulario receptivo",
+        "sin_ayuda": "Discrimina y localiza elementos nombrados dentro de un campo visual amplio con precisión.",
+        "con_ayuda": "Identifica objetos familiares entre opciones limitadas con apoyo de claves contextuales adicionales.",
+        "no_logra": "No relaciona términos verbales con sus referentes concretos sin guía física para la selección."
+    },
+    "13": {
+        "Nombre": "Seguimiento de instrucciones con objetos",
+        "sin_ayuda": "Manipula elementos según consignas verbales específicas demostrando comprensión operativa.",
+        "con_ayuda": "Ejecuta acciones simples con objetos tras demostración práctica y ajustes manuales iniciales.",
+        "no_logra": "Requiere hand-over-hand completo para cualquier manipulación dirigida de materiales."
+    },
+    "14": {
+        "Nombre": "Seguimiento de instrucciones complejas: encadenadas de 2-3 pasos",
+        "sin_ayuda": "Coordina secuencias multi-etapa manteniendo el orden lógico y finalidad de la tarea.",
+        "con_ayuda": "Completa procesos secuenciales con pausas para recordatorios verbales entre cada paso.",
+        "no_logra": "Pierde el hilo de acciones encadenadas sin guía física en cada transición operativa."
+    },
+    "15": {
+        "Nombre": "Seguimiento de instrucciones complejas por trayectoria",
+        "sin_ayuda": "Realiza desplazamientos intencionales siguiendo rutas espaciales con orientación autónoma.",
+        "con_ayuda": "Necesita acompañamiento y señalización ambiental para completar trayectos establecidos.",
+        "no_logra": "Requiere conducción física completa para cualquier movimiento dirigido en el espacio."
+    },
+    "16": {
+        "Nombre": "Seguimiento de instrucciones complejas por trayectoria de 2-3 órdenes",
+        "sin_ayuda": "Integra múltiples consignas espaciales secuenciales demostrando planificación motora.",
+        "con_ayuda": "Ejecuta parcialmente secuencias multi-espaciales con interrupciones para reorientación.",
+        "no_logra": "No mantiene el orden ni finalidad de las acciones sin intervención constante en cada etapa."
+    },
+    "17": {
+        "Nombre": "Imitación de onomatopeyas",
+        "sin_ayuda": "Reproduce sonidos ambientales y corporales con adecuación tímbrica y articulatoria.",
+        "con_ayuda": "Emite aproximaciones sonoras básicas con modelado auditivo-visual continuo.",
+        "no_logra": "No produce imitaciones vocales reconocibles sin soporte físico-quinestésico completo."
+    },
+    "18": {
+        "Nombre": "Ejercicios orofaciales",
+        "sin_ayuda": "Ejecuta rutinas de praxias bucofonatorias complejas con control voluntario y precisión.",
+        "con_ayuda": "Realiza movimientos oromotores básicos con feedback táctil y espejo de apoyo.",
+        "no_logra": "Requiere estimulación física completa para cualquier movimiento oral intencional."
+    },
+    "19": {
+        "Nombre": "Vocales",
+        "sin_ayuda": "Articula todos los fonemas vocálicos en diferentes combinaciones y entonaciones.",
+        "con_ayuda": "Produce algunos sonidos vocálicos aislados con soporte de gestos articulatorios.",
+        "no_logra": "No emite vocalizaciones diferenciadas sin asistencia para la configuración bucal."
+    },
+    "20": {
+        "Nombre": "Sílabas",
+        "sin_ayuda": "Combina consonantes y vocales en estructuras silábicas variadas con fluidez articulatoria.",
+        "con_ayuda": "Repite sílabas simples tras modelado exagerado y apoyo de claves visuales-táctiles.",
+        "no_logra": "No reproduce estructuras silábicas básicas sin manipulación mandibular directa."
+    },
+    "21": {
+        "Nombre": "Ecóicas",
+        "sin_ayuda": "Reproduce inmediatamente modelos verbales complejos con fidelidad fonética.",
+        "con_ayuda": "Imita palabras cortas y frases simples con repetición extendida y articulación guiada.",
+        "no_logra": "No replica sonidos del habla sin apoyo físico para la emisión vocal."
+    },
+    "22": {
+        "Nombre": "Mandos (palabras para pedir)",
+        "sin_ayuda": "Expresa necesidades específicas usando estructuras lingüísticas apropiadas de forma espontánea.",
+        "con_ayuda": "Formula peticiones básicas mediante aproximaciones verbales con andamiaje contextual.",
+        "no_logra": "No utiliza lenguaje funcional para solicitar objetos, requiriendo sistemas alternativos de comunicación."
+    },
+    "23": {
+        "Nombre": "Tactos",
+        "sin_ayuda": "El alumno denomina espontáneamente objetos e imágenes presentados utilizando léxico preciso y articulación clara.",
+        "con_ayuda": "Requiere claves fonéticas y modelado articulatorio para nombrar elementos presentados visualmente.",
+        "no_logra": "No produce denominaciones verbales sin soporte físico para la selección o emisión vocal."
+    },
+    "24": {
+        "Nombre": "Vocabulario",
+        "sin_ayuda": "Organiza y aplica repertorio léxico dentro de categorías semánticas con flexibilidad contextual.",
+        "con_ayuda": "Manifiesta uso restringido de vocabulario categorial con apoyo de material visual estructurado.",
+        "no_logra": "Carece de organización semántica en su repertorio verbal sin andamiaje físico-visual constante."
+    },
+    "25": {
+        "Nombre": "Intraverbales",
+        "sin_ayuda": "Procesa y responde a interrogantes personales con precisión informativa y adecuación pragmática.",
+        "con_ayuda": "Responde parcialmente a preguntas autobiográficas con apoyo de claves múltiples (visuales/gestuales).",
+        "no_logra": "No genera respuestas verbo-conceptuales a consultas personales sin guión estructurado."
+    },
+    "26": {
+        "Nombre": "Selección/preferencia '¿quieres?'",
+        "sin_ayuda": "Expresa elecciones personales mediante respuestas verbales diferenciadas con intencionalidad clara.",
+        "con_ayuda": "Manifiesta preferencias básicas con apoyo de escalas visuales y modelado de respuestas.",
+        "no_logra": "No comunica decisiones personales verbalmente sin sistema alternativo aumentativo."
+    },
+    "27": {
+        "Nombre": "¿Qué quieres?",
+        "sin_ayuda": "Selecciona y verbaliza necesidades específicas entre múltiples opciones con autonomía.",
+        "con_ayuda": "Indica preferencias mediante aproximaciones fonéticas con reducción de alternativas presentadas.",
+        "no_logra": "Requiere soporte físico completo para expresar elecciones entre objetos mostrados."
+    },
+    "28": {
+        "Nombre": "De función '¿Para qué sirve?'",
+        "sin_ayuda": "Relaciona objetos con sus usos prácticos mediante descripciones funcionales precisas.",
+        "con_ayuda": "Asocia algunos elementos con sus funciones básicas mediante claves situacionales guiadas.",
+        "no_logra": "No establece conexiones objeto-función sin manipulación concreta y feedback continuo."
+    },
+    "29": {
+        "Nombre": "Posesivos Mío/Tuyo",
+        "sin_ayuda": "Diferencia y aplica correctamente relaciones de pertenencia en contextos interactivos.",
+        "con_ayuda": "Reconoce posesión básica con apoyo de gestos indicativos y material personalizado.",
+        "no_logra": "Confunde sistemáticamente relaciones posesivas sin guía física para la identificación."
+    },
+    "30": {
+        "Nombre": "Preposiciones '¿dónde?'",
+        "sin_ayuda": "Describe relaciones espaciales complejas utilizando términos preposicionales adecuados.",
+        "con_ayuda": "Identifica ubicaciones simples con apoyo de escenarios tridimensionales y señalamiento.",
+        "no_logra": "No comprende ni aplica conceptos espaciales básicos sin posicionamiento manual de objetos."
+    },
+    "31": {
+        "Nombre": "Sensaciones ¿Dónde sientes?",
+        "sin_ayuda": "Localiza e identifica fuentes somatosensoriales mediante descripciones corporales precisas.",
+        "con_ayuda": "Reconoce estímulos táctiles básicos con apoyo de mapas corporales interactivos.",
+        "no_logra": "No relaciona sensaciones físicas con partes anatómicas sin guía táctil directa."
+    },
+    "32": {
+        "Nombre": "Acciones ¿Qué está haciendo?",
+        "sin_ayuda": "Analiza y describe actividades observadas utilizando verbos específicos y conjugación adecuada.",
+        "con_ayuda": "Denomina acciones simples con apoyo de secuencias fotográficas y gestos miméticos.",
+        "no_logra": "No identifica ni verbaliza acciones presentadas sin modelado completo de respuestas."
+    },
+    "33": {
+        "Nombre": "¿Qué estás haciendo?",
+        "sin_ayuda": "Automonitorea y describe su propia actividad en tiempo real con conciencia metacognitiva.",
+        "con_ayuda": "Responde parcialmente sobre acciones propias con apoyo de espejo y feedback inmediato.",
+        "no_logra": "Carece de conciencia narrativa de sus actos sin interrogatorio guiado paso a paso."
+    },
+    "34": {
+        "Nombre": "¿Qué estoy haciendo?",
+        "sin_ayuda": "Interpreta y describe acciones ajenas mediante observación e inferencia contextual.",
+        "con_ayuda": "Reconoce actividades demostradas exageradamente con apoyo de claves multisensoriales.",
+        "no_logra": "No deduce ni describe conductas observadas sin desglose gestual completo."
+    },
+    "35": {
+        "Nombre": "Descripciones",
+        "sin_ayuda": "Emplea adjetivos calificativos variados con adecuación semántica y riqueza léxica.",
+        "con_ayuda": "Utiliza descriptores básicos con apoyo de escalas visuales de cualidades contrastantes.",
+        "no_logra": "No aplica términos calificativos sin opciones múltiples para selección."
+    },
+    "36": {
+        "Nombre": "Explicación: ¿por qué?",
+        "sin_ayuda": "Argumenta causalidades y relaciones lógicas mediante estructuras complejas de razonamiento.",
+        "con_ayuda": "Establece conexiones simples causa-efecto con apoyo de diagramas secuenciales.",
+        "no_logra": "No comprende ni expresa relaciones causales sin descomposición guiada de eventos."
+    },
+    "37": {
+        "Nombre": "Auto cíclicas",
+        "sin_ayuda": "Construye enunciados simples con estructura SVO (sujeto-verbo-objeto) de forma creativa.",
+        "con_ayuda": "Combina palabras en frases cortas con apoyo de plantillas visuales y encadenamiento vocal.",
+        "no_logra": "No genera oraciones básicas sin completado parcial o modelado palabra por palabra."
+    },
+    "38": {
+        "Nombre": "Yo tengo",
+        "sin_ayuda": "Expresa posesión utilizando construcciones gramaticales complejas con variación contextual.",
+        "con_ayuda": "Formula frases posesivas simples con apoyo de objetos personales como referencia tangible.",
+        "no_logra": "No estructura enunciados de pertenencia sin guión fonético completo."
+    },
+    "39": {
+        "Nombre": "Yo veo",
+        "sin_ayuda": "Describe escenas visuales utilizando la estructura gramatical objetivo con riqueza perceptual.",
+        "con_ayuda": "Menciona elementos observables con apoyo de encuadre visual y señalamiento guiado.",
+        "no_logra": "No construye descripciones visuales básicas sin denominación asistida elemento por elemento."
+    },
+    "40": {
+        "Nombre": "Me gusta/no me gusta",
+        "sin_ayuda": "Expresa preferencias emocionales matizadas con justificaciones y lenguaje afectivo variado.",
+        "con_ayuda": "Indica agrado/desagrado básico mediante escalas pictográficas y opciones binarias simplificadas.",
+        "no_logra": "No comunica preferencias personales sin sistemas alternativos de elección no verbal."
+    },
+    "41": {
+        "Nombre": "Formación de oraciones",
+        "sin_ayuda": "Elabora proposiciones complejas integrando múltiples elementos gramaticales con coherencia.",
+        "con_ayuda": "Combina palabras en estructuras básicas con apoyo de esquemas sintácticos visuales.",
+        "no_logra": "No organiza elementos lingüísticos en secuencias oracionales sin plantillas físicas."
+    },
+    "42": {
+        "Nombre": "Experiencias",
+        "sin_ayuda": "Narra eventos autobiográficos con secuencia temporal detallada y cohesión narrativa.",
+        "con_ayuda": "Recupera fragmentos de vivencias recientes con apoyo de agendas visuales y preguntas dirigidas.",
+        "no_logra": "No reconstruye experiencias personales sin guión cronológico externo completo."
+    },
+    "43": {
+        "Nombre": "Correcta articulación de fonemas",
+        "sin_ayuda": "Produce todos los fonemas del inventario lingüístico en cualquier posición silábica con precisión.",
+        "con_ayuda": "Emite sonidos blanco en contextos controlados mediante técnicas de facilitación articulatoria.",
+        "no_logra": "Presenta dislalias múltiples que requieren intervención fonoaudiológica intensiva."
+    },
+    "44": {
+        "Nombre": "Atención Focal Visual Auditiva",
+        "sin_ayuda": "Regula y mantiene atención selectiva ante estímulos específicos inhibiendo distractores ambientales.",
+        "con_ayuda": "Requiere ajustes ambientales y reforzadores contingentes para sostener foco atencional básico.",
+        "no_logra": "Muestra atención lábil que necesita control estimular externo y guía física constante."
+    },
+    "45": {
+        "Nombre": "Atención Sostenida Visual Auditiva",
+        "sin_ayuda": "Mantiene su concentración en actividades que combinan estímulos visuales y sonoros durante periodos extensos, gestionando adecuadamente la fatiga.",
+        "con_ayuda": "Logra permanecer atento en tareas combinadas por tiempos limitados, requiriendo frecuentes recordatorios para mantener el foco.",
+        "no_logra": "Se distrae rápidamente en actividades que requieren atención combinada, necesitando guía constante para reorientarse."
+    },
+    "46": {
+        "Nombre": "Atención Dividida",
+        "sin_ayuda": "Administra su atención entre varias actividades simultáneas con eficacia y autonomía.",
+        "con_ayuda": "Requiere simplificación de tareas y apoyo visual para manejar más de una actividad a la vez.",
+        "no_logra": "Se bloquea al intentar realizar múltiples acciones simultáneas sin asistencia completa."
+    },
+    "47": {
+        "Nombre": "Atención Conjunta",
+        "sin_ayuda": "Participa activamente en actividades compartidas mostrando interés mutuo por los objetos o juegos.",
+        "con_ayuda": "Sigue el interés de otros en actividades grupales con apoyo de señales gestuales y verbales.",
+        "no_logra": "Muestra dificultad para enfocarse en interacciones grupales sin dirección física constante."
+    },
+    "48": {
+        "Nombre": "Memoria de trabajo",
+        "sin_ayuda": "Retiene y utiliza información reciente para resolver tareas cotidianas de forma independiente.",
+        "con_ayuda": "Necesita repetición de instrucciones y ayudas visuales para recordar datos a corto plazo.",
+        "no_logra": "Olvida rápidamente la información recibida sin apoyo constante para su recuperación."
+    },
+    "49": {
+        "Nombre": "Memoria Episódica",
+        "sin_ayuda": "Relata experiencias personales detallando lugares, personas y emociones vinculadas.",
+        "con_ayuda": "Recuerda fragmentos de vivencias con apoyo de fotos o preguntas guiadas.",
+        "no_logra": "No evoca eventos pasados significativos sin ayuda estructurada para reconstruirlos."
+    },
+    "50": {
+        "Nombre": "Control inhibitorio",
+        "sin_ayuda": "Detiene acciones impulsivas y piensa antes de actuar en diversas situaciones.",
+        "con_ayuda": "Requiere señales preventivas y recordatorios para pausar conductas automáticas.",
+        "no_logra": "Actúa por impulso sistemáticamente sin estrategias externas de contención."
+    },
+    "51": {
+        "Nombre": "Flexibilidad",
+        "sin_ayuda": "Ajusta sus acciones y planes ante imprevistos con creatividad y calma.",
+        "con_ayuda": "Acepta cambios rutinarios con preparación previa y apoyo emocional.",
+        "no_logra": "Se angustia o resiste ante modificaciones inesperadas sin acompañamiento continuo."
+    },
+    "52": {
+        "Nombre": "Semejanzas",
+        "sin_ayuda": "Encuentra puntos en común entre objetos o ideas aparentemente diferentes.",
+        "con_ayuda": "Identifica algunas similitudes básicas con ejemplos concretos y comparaciones guiadas.",
+        "no_logra": "No establece conexiones entre conceptos relacionados sin ayuda directa."
+    },
+    "53": {
+        "Nombre": "Diferencias",
+        "sin_ayuda": "Detalla contrastes específicos entre elementos comparados con precisión.",
+        "con_ayuda": "Reconoce diferencias obvias cuando se le presentan opciones contrastantes.",
+        "no_logra": "Confunde características distintivas sin guía para su identificación."
+    },
+    "54": {
+        "Nombre": "Fluidez Verbal",
+        "sin_ayuda": "Se expresa con variedad de palabras y construcciones gramaticales fluidamente.",
+        "con_ayuda": "Amplía su vocabulario con apoyo de imágenes y modelado de frases.",
+        "no_logra": "Muestra lenguaje limitado y repetitivo sin ayudas para enriquecer su expresión."
+    },
+    "55": {
+        "Nombre": "Temporalidad",
+        "sin_ayuda": "Comprende y usa correctamente términos como 'ayer', 'hoy' y 'mañana' en contexto.",
+        "con_ayuda": "Reconoce secuencias temporales básicas con calendarios visuales y rutinas establecidas.",
+        "no_logra": "Confunde el orden de los eventos temporales sin referentes concretos."
+    },
+    "56": {
+        "Nombre": "Adivinanzas",
+        "sin_ayuda": "Resuelve acertijos usando pistas descriptivas y pensamiento lógico.",
+        "con_ayuda": "Comprende adivinanzas simples con explicaciones paso a paso y opciones múltiples.",
+        "no_logra": "No deduce respuestas a partir de descripciones indirectas sin ayuda total."
+    },
+    "57": {
+        "Nombre": "Verbos Mentales",
+        "sin_ayuda": "Comprende que otras personas tienen pensamientos y preferencias diferentes a las suyas.",
+        "con_ayuda": "Reconoce estados emocionales básicos en otros mediante ejemplos cotidianos guiados.",
+        "no_logra": "No percibe perspectivas ajenas sin explicaciones concretas y repetitivas."
+    },
+    "58": {
+        "Nombre": "Uso de metáforas",
+        "sin_ayuda": "Interpreta expresiones figurativas y lenguaje no literal adecuadamente.",
+        "con_ayuda": "Comprende algunas metáforas comunes con explicaciones visuales y contextuales.",
+        "no_logra": "Toma todo lenguaje de forma literal sin reconocer dobles sentidos."
+    },
+    "59": {
+        "Nombre": "Absurdos",
+        "sin_ayuda": "Detalla situaciones ilógicas o incoherentes en imágenes o relatos.",
+        "con_ayuda": "Reconoce absurdos evidentes cuando se le señalan contradicciones claras.",
+        "no_logra": "No identifica elementos fuera de lugar sin análisis guiado paso a paso."
+    },
+    "60": {
+        "Nombre": "Planificación",
+        "sin_ayuda": "Organiza pasos para completar tareas complejas de manera sistemática.",
+        "con_ayuda": "Sigue planes sencillos con listas visuales y recordatorios periódicos.",
+        "no_logra": "Se siente abrumado ante actividades que requieren organización previa sin apoyo."
+    },
+    "61": {
+        "Nombre": "Motricidad fina",
+        "sin_ayuda": "Realiza movimientos precisos con manos y dedos para actividades como escribir o recortar.",
+        "con_ayuda": "Mejora su coordinación manual con herramientas adaptadas y ejercicios guiados.",
+        "no_logra": "Presenta dificultades significativas en tareas que requieren destreza manual fina."
+    },
+    "62": {
+        "Nombre": "Conducta adaptativa",
+        "sin_ayuda": "Ajusta su comportamiento según las normas sociales de cada entorno.",
+        "con_ayuda": "Sigue reglas básicas de convivencia con recordatorios visuales y apoyos estructurados.",
+        "no_logra": "Muestra conductas inapropiadas recurrentes sin intervención constante."
+    },
+    "63": {
+        "Nombre": "Tolerancia a la frustración",
+        "sin_ayuda": "Maneja la decepción o espera con estrategias de autocontrol efectivas.",
+        "con_ayuda": "Acepta pequeñas demoras con técnicas de distracción y refuerzo positivo.",
+        "no_logra": "Reacciona intensamente ante contratiempos sin herramientas de regulación emocional."
+    },
+    "64": {
+        "Nombre": "Identificación de emociones",
+        "sin_ayuda": "Reconoce y nombra estados emocionales propios y ajenos con precisión.",
+        "con_ayuda": "Identifica emociones básicas usando tarjetas ilustrativas y ejemplos concretos.",
+        "no_logra": "Confunde o no reconoce expresiones emocionales sin guía explícita."
+    },
+    "65": {
+        "Nombre": "Gestión de emociones",
+        "sin_ayuda": "Regula sus reacciones emocionales usando técnicas de calma apropiadas.",
+        "con_ayuda": "Aplica estrategias de relajación básicas con apoyo y modelado adulto.",
+        "no_logra": "Se desborda emocionalmente sin recursos para autorregularse."
+    },
+    "66": {
+        "Nombre": "Autoconocimiento",
+        "sin_ayuda": "Reconoce sus habilidades, preferencias y áreas de mejora con objetividad.",
+        "con_ayuda": "Identifica algunas características personales mediante ejercicios guiados de reflexión.",
+        "no_logra": "Muestra escasa conciencia sobre sí mismo sin actividades estructuradas de exploración."
+    }
+}
