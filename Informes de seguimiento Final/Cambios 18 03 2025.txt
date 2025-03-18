@@ -1,0 +1,8 @@
+actualizar_nuevos_objetivos from crear_informes
+
+generador_nuevos_objetivos from generador_objetivos
+construir_nuevos_objetivos_frame from generador_objetivos
+from generador_objetivos
+
+
+cambios en SeleccionarNuevosObjetivos
