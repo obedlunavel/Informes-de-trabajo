@@ -10,6 +10,8 @@ import re
 import os
 from generador_informe import crear_informe
 from datetime import datetime
+import sqlite3
+
 
 
 
@@ -342,57 +344,92 @@ class DetallesExpediente:
     def guardar_todos_los_cambios(self):
         """Guarda los cambios en los campos modificados dentro de Datos del Expediente."""
         
-        # Mapeo correcto de claves
-        claves_correctas = {
-            "fecha": "fecha",
-            "Unidad": "unidad",
-            "Número de Expediente": "expediente",
-            "Nombre del Paciente": "nombre",
-            "edad": "edad",
-            "Fecha de Nacimiento": "fecha_nacimiento",
-            "Diagnóstico": "diagnostico",
-            "Área de Intervención": "area_intervencion",
-            "periodo_intervencion": "periodo_intervencion",
-            "terapias_recibidas": "terapias_recibidas",
-            "faltas": "faltas",
-            "Objetivos Iniciales": "objetivos_iniciales",
-            "Observaciones Clínicas": "observaciones",
-            "tratamiento": "tratamiento",
-            "sugerencias_casa": "sugerencias_casa",
-            "elaborado_por": "elaborado_por",
-            "cedula": "cedula"
-        }
+        # ✅ Extraer datos de los Entry y StringVar (igual que en generar_documento)
+        datos = {}
+        for campo_interfaz, widget in self.campos_modificados.items():
+            campo_final = self.MAPEO_CAMPOS.get(campo_interfaz, campo_interfaz)
 
-        # Diccionario corregido
-        datos_corregidos = {}
-
-        for key, widget in self.campos_modificados.items():
             if isinstance(widget, tk.Entry):
-                nuevo_valor = widget.get()
+                valor = widget.get().strip()
             elif isinstance(widget, tk.StringVar):
-                nuevo_valor = widget.get()
+                valor = widget.get().strip()
+            elif isinstance(widget, str):  # Si ya es string (ej. sugerencias_casa)
+                valor = widget.strip()
             else:
-                nuevo_valor = ""  # Si el widget no es reconocido, asigna una cadena vacía
+                valor = ""
 
-            # Usar la clave correcta en datos_corregidos
-            clave_corregida = claves_correctas.get(key, key)  # Si no está en el mapeo, deja el mismo nombre
-            datos_corregidos[clave_corregida] = nuevo_valor
+            datos[campo_final] = valor
 
-        # Unir los avances en un solo campo "avance_objetivos"
-        avances = [valor for clave, valor in datos_corregidos.items() if clave.startswith("avance_objetivo_")]
-        if avances:
-            datos_corregidos["avance_objetivos"] = "\n".join(avances)
+        # ✅ Leer objetivos desde objetivos.json
+        try:
+            with open("objetivos.json", "r", encoding="utf-8") as file:
+                objetivos = json.load(file)
+        except FileNotFoundError:
+            messagebox.showerror("Error", "Archivo objetivos.json no encontrado.")
+            return
 
-        # Eliminar claves individuales de avances para evitar duplicados
-        for clave in list(datos_corregidos.keys()):
-            if clave.startswith("avance_objetivo_"):
-                del datos_corregidos[clave]
+        # ✅ EXTRAER NUEVOS OBJETIVOS ANTES DE USARLOS
+        nuevos_obj_ids = self.extraer_nuevos_objetivos(self.nuevos_obj_frame) if self.nuevos_obj_frame else []
 
-        # Guardar los datos corregidos en datos_expediente
-        self.datos_expediente.update(datos_corregidos)
+        # ✅ Convertir los IDs a nombres de objetivos
+        nuevos_obj_nombres = []
+        for obj_id in nuevos_obj_ids:
+            obj_id = str(obj_id)  
+            if obj_id in objetivos:
+                nombre = objetivos[obj_id]["Nombre"]
+                nuevos_obj_nombres.append(f"{nombre}")
+            else:
+                print(f"⚠️ Objetivo '{obj_id}' no encontrado en el archivo JSON")
 
-        messagebox.showinfo("Éxito", "Los cambios se han guardado correctamente.")
-        self.clear_body_frame()  # Limpiar la interfaz después de guardar
+        # ✅ Guardar los nuevos objetivos en `datos`
+        datos["nuevos_objetivos"] = "\n".join(nuevos_obj_nombres)
+
+        # ✅ Convertir objetivos iniciales de IDs a nombres
+        if "objetivos_iniciales" in datos and datos["objetivos_iniciales"]:
+            objetivos_ids = [obj.strip() for obj in datos["objetivos_iniciales"].split(",")]
+            objetivos_nombres = []
+
+            for obj_id in objetivos_ids:
+                obj_id = str(obj_id)  # Asegurar que sea string para comparación
+                if obj_id in objetivos:
+                    nombre = objetivos[obj_id]["Nombre"]
+                    objetivos_nombres.append(f"{nombre}")
+                else:
+                    print(f"⚠️ Objetivo '{obj_id}' no encontrado en el archivo JSON")
+
+            datos["objetivos_iniciales"] = "\n".join(objetivos_nombres)
+
+        # ✅ Extraer datos de avance_objetivos
+        avance_objetivos = self.extraer_avance_objetivos()
+        datos["avance_objetivos"] = self.formatear_avance_objetivos(avance_objetivos)
+
+        # ✅ Eliminar claves individuales de avances para evitar duplicados
+        for key in list(datos.keys()):
+            if key.startswith("avance_objetivo_"):
+                del datos[key]
+
+        # ✅ Cargar el archivo JSON de sugerencias
+        with open("SugerenciasProgramas.json", "r", encoding="utf-8") as file:
+            sugerencias_data = json.load(file)
+
+        # ✅ Actualizar los datos de sugerencias_casa
+        self.actualizar_sugerencias_casa(datos, sugerencias_data)
+
+        # Guardar en archivo JSON
+        with open("expedientes2.json", "w", encoding="utf-8") as json_file:
+            json.dump(datos, json_file, ensure_ascii=False, indent=4)
+
+        # Guardar en archivo SQL
+        with open("expedientes2.sql", "w", encoding="utf-8") as sql_file:
+            sql_file.write("INSERT INTO expedientes2 (\n")
+            sql_file.write(", ".join(datos.keys()) + "\n")
+            sql_file.write(") VALUES (\n")
+            sql_file.write(", ".join([f"'{value}'" for value in datos.values()]) + "\n")
+            sql_file.write(");\n")
+
+        messagebox.showinfo("Éxito", "Los cambios se han guardado correctamente en expedientes2.json y expedientes2.sql.")
+
+
 
     def actualizar_sugerencias_casa(self, datos, sugerencias_data):
         """
